@@ -7,3 +7,4 @@
 - [2026-06-27 18:18] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-06-27 18:41] docs: add architecture diagram and protocol specification
 - [2026-06-27 20:02] docs: update README with CLI flags and usage examples
+- [2026-06-27 22:54] feat: add UDP packet relaying with NAT traversal mapping table
