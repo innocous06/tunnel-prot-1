@@ -12,3 +12,4 @@
 - [2026-06-28 10:08] chore: configure go.mod and add CI testing workflow
 - [2026-06-28 11:33] docs: update README with CLI flags and usage examples
 - [2026-06-28 15:02] fix: resolve goroutine leak on abrupt TCP connection termination
+- [2026-06-28 20:35] chore: configure go.mod and add CI testing workflow
