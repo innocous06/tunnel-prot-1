@@ -8,3 +8,4 @@
 - [2026-06-27 18:41] docs: add architecture diagram and protocol specification
 - [2026-06-27 20:02] docs: update README with CLI flags and usage examples
 - [2026-06-27 22:54] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-06-28 09:17] fix: resolve goroutine leak on abrupt TCP connection termination
