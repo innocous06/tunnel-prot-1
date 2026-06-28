@@ -10,3 +10,4 @@
 - [2026-06-27 22:54] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-06-28 09:17] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-06-28 10:08] chore: configure go.mod and add CI testing workflow
+- [2026-06-28 11:33] docs: update README with CLI flags and usage examples
