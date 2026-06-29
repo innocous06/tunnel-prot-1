@@ -14,3 +14,4 @@
 - [2026-06-28 15:02] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-06-28 20:35] chore: configure go.mod and add CI testing workflow
 - [2026-06-29 10:14] perf: reuse memory buffers using sync.Pool to minimize GC overhead
+- [2026-06-29 15:52] feat: add prometheus metrics exporter for active tunnel count
