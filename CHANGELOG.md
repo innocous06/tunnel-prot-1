@@ -16,3 +16,4 @@
 - [2026-06-29 10:14] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-06-29 15:52] feat: add prometheus metrics exporter for active tunnel count
 - [2026-06-29 19:40] docs: update README with CLI flags and usage examples
+- [2026-06-30 17:27] fix: handle context cancellation for graceful shutdown of listeners
