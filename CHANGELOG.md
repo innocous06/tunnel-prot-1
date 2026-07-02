@@ -20,3 +20,4 @@
 - [2026-07-02 11:20] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-02 11:22] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-02 13:28] refactor: worker goroutine pool to bound concurrent connections
+- [2026-07-02 17:49] docs: add architecture diagram and protocol specification
