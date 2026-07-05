@@ -22,3 +22,4 @@
 - [2026-07-02 13:28] refactor: worker goroutine pool to bound concurrent connections
 - [2026-07-02 17:49] docs: add architecture diagram and protocol specification
 - [2026-07-02 21:37] feat: add bidirectional TCP proxy stream with io.CopyBuffer
+- [2026-07-05 09:32] feat: add configurable connection timeout and keep-alive probes
