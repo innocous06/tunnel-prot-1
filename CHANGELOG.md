@@ -23,3 +23,4 @@
 - [2026-07-02 17:49] docs: add architecture diagram and protocol specification
 - [2026-07-02 21:37] feat: add bidirectional TCP proxy stream with io.CopyBuffer
 - [2026-07-05 09:32] feat: add configurable connection timeout and keep-alive probes
+- [2026-07-05 16:08] fix: handle context cancellation for graceful shutdown of listeners
