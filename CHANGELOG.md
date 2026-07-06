@@ -25,3 +25,4 @@
 - [2026-07-05 09:32] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-05 16:08] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-05 19:21] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-07-06 09:06] test: add unit and race condition tests for concurrent dialers
