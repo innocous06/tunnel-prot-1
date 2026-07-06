@@ -28,3 +28,4 @@
 - [2026-07-06 09:06] test: add unit and race condition tests for concurrent dialers
 - [2026-07-06 11:28] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-06 14:11] fix: resolve goroutine leak on abrupt TCP connection termination
+- [2026-07-06 16:14] test: add unit and race condition tests for concurrent dialers
