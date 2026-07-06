@@ -30,3 +30,4 @@
 - [2026-07-06 14:11] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-06 16:14] test: add unit and race condition tests for concurrent dialers
 - [2026-07-06 19:47] fix: handle context cancellation for graceful shutdown of listeners
+- [2026-07-06 20:08] fix: handle context cancellation for graceful shutdown of listeners
