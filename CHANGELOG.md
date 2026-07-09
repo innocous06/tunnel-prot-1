@@ -32,3 +32,4 @@
 - [2026-07-06 19:47] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-06 20:08] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-08 19:44] docs: add architecture diagram and protocol specification
+- [2026-07-09 10:49] chore: configure go.mod and add CI testing workflow
