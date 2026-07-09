@@ -34,3 +34,4 @@
 - [2026-07-08 19:44] docs: add architecture diagram and protocol specification
 - [2026-07-09 10:49] chore: configure go.mod and add CI testing workflow
 - [2026-07-09 12:22] perf: reuse memory buffers using sync.Pool to minimize GC overhead
+- [2026-07-09 18:00] feat: add bidirectional TCP proxy stream with io.CopyBuffer
