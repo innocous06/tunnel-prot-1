@@ -38,3 +38,4 @@
 - [2026-07-09 19:24] refactor: worker goroutine pool to bound concurrent connections
 - [2026-07-09 20:00] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-10 09:54] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-07-10 10:21] feat: add UDP packet relaying with NAT traversal mapping table
