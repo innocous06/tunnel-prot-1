@@ -50,3 +50,4 @@
 - [2026-07-11 14:25] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-11 14:43] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-11 16:49] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-11 17:04] fix: handle context cancellation for graceful shutdown of listeners
