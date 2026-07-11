@@ -41,3 +41,4 @@
 - [2026-07-10 10:21] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-07-10 17:57] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-07-11 07:30] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-07-11 10:48] feat: add bidirectional TCP proxy stream with io.CopyBuffer
