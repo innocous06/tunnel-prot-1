@@ -44,3 +44,4 @@
 - [2026-07-11 10:48] feat: add bidirectional TCP proxy stream with io.CopyBuffer
 - [2026-07-11 11:19] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-11 11:38] docs: update README with CLI flags and usage examples
+- [2026-07-11 12:41] feat: add configurable connection timeout and keep-alive probes
