@@ -46,3 +46,4 @@
 - [2026-07-11 11:38] docs: update README with CLI flags and usage examples
 - [2026-07-11 12:41] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-11 13:55] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-07-11 14:14] feat: add configurable connection timeout and keep-alive probes
