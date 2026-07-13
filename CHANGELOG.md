@@ -54,3 +54,4 @@
 - [2026-07-11 17:54] feat: add bidirectional TCP proxy stream with io.CopyBuffer
 - [2026-07-11 20:11] docs: update README with CLI flags and usage examples
 - [2026-07-11 21:29] refactor: worker goroutine pool to bound concurrent connections
+- [2026-07-13 10:57] fix: handle context cancellation for graceful shutdown of listeners
