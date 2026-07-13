@@ -56,3 +56,4 @@
 - [2026-07-11 21:29] refactor: worker goroutine pool to bound concurrent connections
 - [2026-07-13 10:57] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-13 12:57] docs: add architecture diagram and protocol specification
+- [2026-07-13 13:37] feat: implement SOCKS5 authentication and connection negotiation
