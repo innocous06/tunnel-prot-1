@@ -58,3 +58,4 @@
 - [2026-07-13 12:57] docs: add architecture diagram and protocol specification
 - [2026-07-13 13:37] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-13 20:11] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-07-14 09:47] test: add unit and race condition tests for concurrent dialers
