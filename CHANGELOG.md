@@ -63,3 +63,4 @@
 - [2026-07-15 10:52] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-15 13:35] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-15 17:51] chore: configure go.mod and add CI testing workflow
+- [2026-07-15 19:39] docs: update README with CLI flags and usage examples
