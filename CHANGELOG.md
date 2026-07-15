@@ -60,3 +60,4 @@
 - [2026-07-13 20:11] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-14 09:47] test: add unit and race condition tests for concurrent dialers
 - [2026-07-14 11:57] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-15 10:52] fix: resolve goroutine leak on abrupt TCP connection termination
