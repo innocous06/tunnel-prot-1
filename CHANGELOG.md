@@ -4,3 +4,4 @@
 - [2026-07-02 16:48] feat: add bidirectional TCP proxy stream handler with io.CopyBuffer
 - [2026-07-07 11:05] feat: implement UDP associate packet relaying with NAT address mapping
 - [2026-07-12 13:59] refactor: worker goroutine pool with bounded concurrency channels
+- [2026-07-17 16:38] perf: recycle 32KB copy buffers using sync.Pool to minimize GC load
