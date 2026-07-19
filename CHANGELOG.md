@@ -68,3 +68,4 @@
 - [2026-07-18 11:04] docs: add architecture diagram and protocol specification
 - [2026-07-18 12:03] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-18 16:01] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-19 09:33] refactor: clean up error wrapping with fmt.Errorf %w
