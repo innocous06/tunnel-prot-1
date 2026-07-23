@@ -75,3 +75,4 @@
 - [2026-07-23 12:24] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-23 12:47] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-23 15:01] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-07-23 15:41] feat: add prometheus metrics exporter for active tunnel count
