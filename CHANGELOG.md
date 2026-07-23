@@ -71,3 +71,4 @@
 - [2026-07-19 09:33] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-07-19 17:48] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-21 10:24] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-07-23 10:02] docs: add architecture diagram and protocol specification
