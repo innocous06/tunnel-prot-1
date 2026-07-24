@@ -77,3 +77,4 @@
 - [2026-07-23 15:01] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-23 15:41] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-23 20:32] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-24 09:55] docs: add architecture diagram and protocol specification
