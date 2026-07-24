@@ -81,3 +81,4 @@
 - [2026-07-24 10:52] test: add unit and race condition tests for concurrent dialers
 - [2026-07-24 11:29] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-07-24 15:21] refactor: worker goroutine pool to bound concurrent connections
+- [2026-07-24 16:16] feat: add UDP packet relaying with NAT traversal mapping table
