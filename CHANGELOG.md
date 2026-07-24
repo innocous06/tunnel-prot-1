@@ -82,3 +82,4 @@
 - [2026-07-24 11:29] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-07-24 15:21] refactor: worker goroutine pool to bound concurrent connections
 - [2026-07-24 16:16] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-07-24 18:16] refactor: clean up error wrapping with fmt.Errorf %w
