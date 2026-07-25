@@ -87,3 +87,4 @@
 - [2026-07-25 09:14] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-25 09:20] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-25 09:29] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-25 10:41] refactor: clean up error wrapping with fmt.Errorf %w
