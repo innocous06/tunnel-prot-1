@@ -94,3 +94,4 @@
 - [2026-07-25 19:14] test: add unit and race condition tests for concurrent dialers
 - [2026-07-25 19:28] docs: add architecture diagram and protocol specification
 - [2026-07-25 21:06] feat: add bidirectional TCP proxy stream with io.CopyBuffer
+- [2026-07-25 21:38] fix: handle context cancellation for graceful shutdown of listeners
