@@ -91,3 +91,4 @@
 - [2026-07-25 11:50] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-25 17:29] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-25 18:56] docs: add architecture diagram and protocol specification
+- [2026-07-25 19:14] test: add unit and race condition tests for concurrent dialers
