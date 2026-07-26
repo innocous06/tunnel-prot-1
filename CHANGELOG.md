@@ -95,3 +95,4 @@
 - [2026-07-25 19:28] docs: add architecture diagram and protocol specification
 - [2026-07-25 21:06] feat: add bidirectional TCP proxy stream with io.CopyBuffer
 - [2026-07-25 21:38] fix: handle context cancellation for graceful shutdown of listeners
+- [2026-07-26 12:24] feat: implement SOCKS5 authentication and connection negotiation
