@@ -97,3 +97,4 @@
 - [2026-07-25 21:38] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-26 12:24] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-26 12:45] docs: add architecture diagram and protocol specification
+- [2026-07-26 14:54] feat: add UDP packet relaying with NAT traversal mapping table
