@@ -6,3 +6,4 @@
 - [2026-07-12 13:59] refactor: worker goroutine pool with bounded concurrency channels
 - [2026-07-17 16:38] perf: recycle 32KB copy buffers using sync.Pool to minimize GC load
 - [2026-07-22 17:12] fix: graceful server shutdown on context cancellation and OS signals
+- [2026-07-27 18:25] test: add race condition unit tests with Go race detector
