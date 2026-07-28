@@ -102,3 +102,4 @@
 - [2026-07-28 11:58] test: add unit and race condition tests for concurrent dialers
 - [2026-07-28 12:50] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-28 13:15] chore: configure go.mod and add CI testing workflow
+- [2026-07-28 14:27] feat: add prometheus metrics exporter for active tunnel count
