@@ -105,3 +105,4 @@
 - [2026-07-28 14:27] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-28 15:11] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-28 17:01] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-07-28 18:35] feat: add configurable connection timeout and keep-alive probes
