@@ -106,3 +106,4 @@
 - [2026-07-28 15:11] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-28 17:01] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-07-28 18:35] feat: add configurable connection timeout and keep-alive probes
+- [2026-07-28 18:52] feat: add bidirectional TCP proxy stream with io.CopyBuffer
