@@ -111,3 +111,4 @@
 - [2026-07-28 19:53] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-07-28 20:02] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-07-28 21:11] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-28 23:47] refactor: clean up error wrapping with fmt.Errorf %w
