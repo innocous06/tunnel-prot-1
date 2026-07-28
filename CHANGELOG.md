@@ -98,3 +98,4 @@
 - [2026-07-26 12:24] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-26 12:45] docs: add architecture diagram and protocol specification
 - [2026-07-26 14:54] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-07-28 08:24] perf: reuse memory buffers using sync.Pool to minimize GC overhead
