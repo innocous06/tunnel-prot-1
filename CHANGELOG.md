@@ -116,3 +116,4 @@
 - [2026-07-29 09:06] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-07-29 11:35] docs: update README with CLI flags and usage examples
 - [2026-07-29 11:49] feat: add configurable connection timeout and keep-alive probes
+- [2026-07-29 14:05] refactor: worker goroutine pool to bound concurrent connections
