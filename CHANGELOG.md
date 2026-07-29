@@ -113,3 +113,4 @@
 - [2026-07-28 21:11] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-07-28 23:47] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-07-29 07:09] fix: handle context cancellation for graceful shutdown of listeners
+- [2026-07-29 09:06] fix: handle context cancellation for graceful shutdown of listeners
