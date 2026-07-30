@@ -122,3 +122,4 @@
 - [2026-07-30 10:01] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-07-30 11:12] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-30 12:08] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-07-30 13:31] chore: configure go.mod and add CI testing workflow
