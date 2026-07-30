@@ -119,3 +119,4 @@
 - [2026-07-29 14:05] refactor: worker goroutine pool to bound concurrent connections
 - [2026-07-29 15:55] refactor: worker goroutine pool to bound concurrent connections
 - [2026-07-29 20:29] fix: resolve goroutine leak on abrupt TCP connection termination
+- [2026-07-30 10:01] refactor: clean up error wrapping with fmt.Errorf %w
