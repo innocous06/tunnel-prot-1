@@ -126,3 +126,4 @@
 - [2026-07-30 13:32] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-30 16:07] docs: update README with CLI flags and usage examples
 - [2026-07-30 16:11] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-07-30 17:20] feat: add configurable connection timeout and keep-alive probes
