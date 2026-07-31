@@ -128,3 +128,4 @@
 - [2026-07-30 16:11] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-07-30 17:20] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-30 19:14] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-07-31 07:17] refactor: clean up error wrapping with fmt.Errorf %w
