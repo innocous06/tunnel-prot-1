@@ -48,6 +48,15 @@ func LoadClientConfig(path string) (*ClientConfig, error) {
 	return &cfg, nil
 }
 
+// SaveClientConfig saves client config to JSON file with indentation.
+func SaveClientConfig(path string, cfg *ClientConfig) error {
+	data, err := json.MarshalIndent(cfg, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(path, data, 0644)
+}
+
 // LoadServerConfig reads and parses a server config JSON file.
 func LoadServerConfig(path string) (*ServerConfig, error) {
 	data, err := os.ReadFile(path)
@@ -59,4 +68,13 @@ func LoadServerConfig(path string) (*ServerConfig, error) {
 		return nil, err
 	}
 	return &cfg, nil
+}
+
+// SaveServerConfig saves server config to JSON file with indentation.
+func SaveServerConfig(path string, cfg *ServerConfig) error {
+	data, err := json.MarshalIndent(cfg, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(path, data, 0644)
 }

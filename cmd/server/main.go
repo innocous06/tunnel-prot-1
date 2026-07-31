@@ -20,13 +20,27 @@ func main() {
 
 	cfg, err := config.LoadServerConfig(*cfgPath)
 	if err != nil {
-		log.Fatalf("[server] failed to load config: %v", err)
+		log.Printf("[server] config '%s' not found or invalid: %v", *cfgPath, err)
+		log.Printf("[server] creating default server config at '%s'...", *cfgPath)
+		cfg = &config.ServerConfig{
+			ListenUDP:      ":443",
+			ListenTCP:      ":443",
+			TunAddress:     "10.66.0.1/24",
+			TunSubnet:      "10.66.0.0/24",
+			ServerCertFile: "certs/server-cert.pem",
+			ServerKeyFile:  "certs/server-key.pem",
+			CACert:         "certs/ca-cert.pem",
+		}
+		if saveErr := config.SaveServerConfig(*cfgPath, cfg); saveErr != nil {
+			log.Fatalf("[server] failed to save default config: %v", saveErr)
+		}
 	}
 
 	// --- TLS config (mTLS: server cert + require client cert from our CA) ---
 	tlsCfg, err := engine.NewServerTLSConfig(cfg.ServerCertFile, cfg.ServerKeyFile, cfg.CACert)
 	if err != nil {
-		log.Fatalf("[server] TLS config: %v", err)
+		log.Fatalf("[server] TLS config error: %v\nMake sure server certificates exist at '%s', '%s', '%s'",
+			err, cfg.ServerCertFile, cfg.ServerKeyFile, cfg.CACert)
 	}
 
 	// --- Create TUN interface ---
