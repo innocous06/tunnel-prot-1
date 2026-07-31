@@ -132,3 +132,4 @@
 - [2026-07-31 09:33] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-31 10:22] feat: add prometheus metrics exporter for active tunnel count
 - [2026-07-31 11:29] feat: add prometheus metrics exporter for active tunnel count
+- [2026-07-31 14:34] feat: add configurable connection timeout and keep-alive probes
