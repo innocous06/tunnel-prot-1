@@ -1,0 +1,19 @@
+# .gitignore for the tunnel project
+# NEVER commit keys, certs, or built binaries.
+
+# Private keys and issued certs
+certs/*.pem
+certs/*.srl
+certs/*.csr
+
+# Live config files (contain paths to keys — keep example files only)
+server_config.json
+client_config.json
+
+# Built binaries & executables
+bin/
+*.exe
+
+# Go build cache
+*.test
+*.out

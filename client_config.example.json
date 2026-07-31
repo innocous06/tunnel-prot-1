@@ -1,0 +1,29 @@
+{
+  "_comment": "Client config — edit freely. Nothing is hardcoded in the binary. Add/remove/change servers without rebuilding.",
+  "client_cert": "certs/device-cert.pem",
+  "client_key": "certs/device-key.pem",
+  "ca_cert": "certs/ca-cert.pem",
+  "profiles": [
+    {
+      "name": "Oracle-India",
+      "hostname": "in.yourdomain.com",
+      "port": 443,
+      "region_label": "India",
+      "tun_client_addr": "10.66.0.2/24"
+    },
+    {
+      "name": "Oracle-Sweden",
+      "hostname": "se.yourdomain.com",
+      "port": 443,
+      "region_label": "Sweden",
+      "tun_client_addr": "10.67.0.2/24"
+    },
+    {
+      "name": "Oracle-Japan",
+      "hostname": "jp.yourdomain.com",
+      "port": 443,
+      "region_label": "Japan",
+      "tun_client_addr": "10.68.0.2/24"
+    }
+  ]
+}

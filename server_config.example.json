@@ -1,0 +1,11 @@
+{
+  "_comment": "Oracle VM.Standard.E2.1.Micro server config. One file per VPS. Use a unique tun_address /24 per VPS to avoid subnet overlap.",
+  "_oracle_note": "In Oracle Cloud Console, open VCN Security List and allow 443/UDP (QUIC) and 443/TCP (fallback) from 0.0.0.0/0.",
+  "listen_udp": ":443",
+  "listen_tcp": ":443",
+  "tun_address": "10.66.0.1/24",
+  "tun_subnet": "10.66.0.0/24",
+  "server_cert_file": "certs/server-cert.pem",
+  "server_key_file": "certs/server-key.pem",
+  "ca_cert": "certs/ca-cert.pem"
+}

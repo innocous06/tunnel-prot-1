@@ -1,0 +1,17 @@
+[Unit]
+Description=Personal Network Tunnel Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/tunnel
+ExecStart=/opt/tunnel/tunnel-server -config /opt/tunnel/server_config.json
+Restart=on-failure
+RestartSec=5s
+# Hard limits to contain any runaway memory use
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
