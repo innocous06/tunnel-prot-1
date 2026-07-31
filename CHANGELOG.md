@@ -130,3 +130,4 @@
 - [2026-07-30 19:14] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-07-31 07:17] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-07-31 09:33] feat: add configurable connection timeout and keep-alive probes
+- [2026-07-31 10:22] feat: add prometheus metrics exporter for active tunnel count
