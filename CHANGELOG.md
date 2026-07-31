@@ -135,3 +135,4 @@
 - [2026-07-31 14:34] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-31 15:36] feat: add configurable connection timeout and keep-alive probes
 - [2026-07-31 15:41] perf: reuse memory buffers using sync.Pool to minimize GC overhead
+- [2026-07-31 16:26] feat: add bidirectional TCP proxy stream with io.CopyBuffer
