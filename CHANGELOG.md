@@ -148,3 +148,4 @@
 - [2026-08-03 10:27] feat: add prometheus metrics exporter for active tunnel count
 - [2026-08-03 10:59] test: add unit and race condition tests for concurrent dialers
 - [2026-08-03 11:46] feat: add prometheus metrics exporter for active tunnel count
+- [2026-08-03 12:31] docs: add architecture diagram and protocol specification
