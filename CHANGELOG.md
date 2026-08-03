@@ -144,3 +144,4 @@
 - [2026-08-02 09:33] docs: update README with CLI flags and usage examples
 - [2026-08-02 17:07] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-08-03 07:00] fix: handle context cancellation for graceful shutdown of listeners
+- [2026-08-03 09:53] chore: configure go.mod and add CI testing workflow
