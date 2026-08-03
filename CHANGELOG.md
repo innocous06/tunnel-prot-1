@@ -150,3 +150,4 @@
 - [2026-08-03 11:46] feat: add prometheus metrics exporter for active tunnel count
 - [2026-08-03 12:31] docs: add architecture diagram and protocol specification
 - [2026-08-03 18:51] chore: configure go.mod and add CI testing workflow
+- [2026-08-03 19:17] docs: add architecture diagram and protocol specification
