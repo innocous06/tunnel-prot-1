@@ -156,3 +156,4 @@
 - [2026-08-04 09:44] chore: configure go.mod and add CI testing workflow
 - [2026-08-04 12:54] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-08-04 14:24] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-08-04 17:19] docs: add architecture diagram and protocol specification
