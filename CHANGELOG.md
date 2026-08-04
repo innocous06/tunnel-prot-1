@@ -158,3 +158,4 @@
 - [2026-08-04 14:24] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-08-04 17:19] docs: add architecture diagram and protocol specification
 - [2026-08-04 17:41] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-08-04 19:56] refactor: clean up error wrapping with fmt.Errorf %w
