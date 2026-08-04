@@ -152,3 +152,4 @@
 - [2026-08-03 18:51] chore: configure go.mod and add CI testing workflow
 - [2026-08-03 19:17] docs: add architecture diagram and protocol specification
 - [2026-08-03 21:31] feat: add bidirectional TCP proxy stream with io.CopyBuffer
+- [2026-08-04 08:38] feat: add prometheus metrics exporter for active tunnel count
