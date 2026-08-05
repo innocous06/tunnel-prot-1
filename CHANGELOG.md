@@ -162,3 +162,4 @@
 - [2026-08-04 20:30] test: add unit and race condition tests for concurrent dialers
 - [2026-08-05 13:57] feat: add configurable connection timeout and keep-alive probes
 - [2026-08-05 17:40] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-08-05 19:03] docs: add architecture diagram and protocol specification
