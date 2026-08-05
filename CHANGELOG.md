@@ -160,3 +160,4 @@
 - [2026-08-04 17:41] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-08-04 19:56] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-08-04 20:30] test: add unit and race condition tests for concurrent dialers
+- [2026-08-05 13:57] feat: add configurable connection timeout and keep-alive probes
