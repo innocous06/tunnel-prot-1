@@ -165,3 +165,4 @@
 - [2026-08-05 19:03] docs: add architecture diagram and protocol specification
 - [2026-08-05 20:29] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-08-07 10:33] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-08-07 10:47] perf: reuse memory buffers using sync.Pool to minimize GC overhead
