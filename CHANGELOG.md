@@ -172,3 +172,4 @@
 - [2026-08-07 16:39] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-08-07 18:29] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-08-07 18:33] perf: reuse memory buffers using sync.Pool to minimize GC overhead
+- [2026-08-07 18:41] fix: resolve goroutine leak on abrupt TCP connection termination
