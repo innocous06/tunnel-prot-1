@@ -177,3 +177,4 @@
 - [2026-08-07 19:13] chore: configure go.mod and add CI testing workflow
 - [2026-08-07 19:54] docs: update README with CLI flags and usage examples
 - [2026-08-07 20:09] feat: add configurable connection timeout and keep-alive probes
+- [2026-08-07 20:23] fix: handle context cancellation for graceful shutdown of listeners
