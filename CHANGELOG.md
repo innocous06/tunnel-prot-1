@@ -167,3 +167,4 @@
 - [2026-08-07 10:33] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-08-07 10:47] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-08-07 11:53] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-08-07 13:34] feat: add bidirectional TCP proxy stream with io.CopyBuffer
