@@ -179,3 +179,4 @@
 - [2026-08-07 20:09] feat: add configurable connection timeout and keep-alive probes
 - [2026-08-07 20:23] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-08-07 21:02] feat: add prometheus metrics exporter for active tunnel count
+- [2026-08-07 21:19] fix: resolve goroutine leak on abrupt TCP connection termination
