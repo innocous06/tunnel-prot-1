@@ -170,3 +170,4 @@
 - [2026-08-07 13:34] feat: add bidirectional TCP proxy stream with io.CopyBuffer
 - [2026-08-07 16:33] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-08-07 16:39] feat: implement SOCKS5 authentication and connection negotiation
+- [2026-08-07 18:29] fix: resolve goroutine leak on abrupt TCP connection termination
