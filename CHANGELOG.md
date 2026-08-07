@@ -176,3 +176,4 @@
 - [2026-08-07 18:55] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-08-07 19:13] chore: configure go.mod and add CI testing workflow
 - [2026-08-07 19:54] docs: update README with CLI flags and usage examples
+- [2026-08-07 20:09] feat: add configurable connection timeout and keep-alive probes
