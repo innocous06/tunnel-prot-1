@@ -184,3 +184,4 @@
 - [2026-08-08 10:23] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-08-08 11:04] feat: add UDP packet relaying with NAT traversal mapping table
 - [2026-08-08 11:51] chore: configure go.mod and add CI testing workflow
+- [2026-08-08 18:24] fix: handle context cancellation for graceful shutdown of listeners
