@@ -182,3 +182,4 @@
 - [2026-08-07 21:19] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-08-07 21:59] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-08-08 10:23] fix: resolve goroutine leak on abrupt TCP connection termination
+- [2026-08-08 11:04] feat: add UDP packet relaying with NAT traversal mapping table
