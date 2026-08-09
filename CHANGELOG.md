@@ -187,3 +187,4 @@
 - [2026-08-08 18:24] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-08-09 16:09] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-08-09 16:55] feat: add configurable connection timeout and keep-alive probes
+- [2026-08-09 18:45] test: add unit and race condition tests for concurrent dialers
