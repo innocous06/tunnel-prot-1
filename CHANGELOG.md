@@ -196,3 +196,4 @@
 - [2026-08-10 15:15] docs: update README with CLI flags and usage examples
 - [2026-08-10 19:20] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-08-10 21:08] perf: reuse memory buffers using sync.Pool to minimize GC overhead
+- [2026-08-10 21:58] feat: add bidirectional TCP proxy stream with io.CopyBuffer
