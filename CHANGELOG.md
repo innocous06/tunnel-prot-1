@@ -199,3 +199,4 @@
 - [2026-08-10 21:58] feat: add bidirectional TCP proxy stream with io.CopyBuffer
 - [2026-08-10 23:28] test: add unit and race condition tests for concurrent dialers
 - [2026-08-11 10:31] feat: add configurable connection timeout and keep-alive probes
+- [2026-08-11 10:36] refactor: clean up error wrapping with fmt.Errorf %w
