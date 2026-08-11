@@ -201,3 +201,4 @@
 - [2026-08-11 10:31] feat: add configurable connection timeout and keep-alive probes
 - [2026-08-11 10:36] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-08-11 11:18] fix: handle context cancellation for graceful shutdown of listeners
+- [2026-08-11 17:33] feat: implement SOCKS5 authentication and connection negotiation
