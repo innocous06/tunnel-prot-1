@@ -9,3 +9,4 @@
 - [2026-07-27 18:25] test: add race condition unit tests with Go race detector
 - [2026-08-01 16:54] docs: add network flow diagram and server deployment manual in README
 - [2026-08-06 17:27] feat: add connection rate limiter to prevent SYN flood denial of service
+- [2026-08-11 15:28] chore: add go.mod and go.sum dependency definitions
