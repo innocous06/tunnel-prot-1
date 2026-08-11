@@ -203,3 +203,4 @@
 - [2026-08-11 11:18] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-08-11 17:33] feat: implement SOCKS5 authentication and connection negotiation
 - [2026-08-11 17:58] test: add unit and race condition tests for concurrent dialers
+- [2026-08-11 18:57] feat: add bidirectional TCP proxy stream with io.CopyBuffer
