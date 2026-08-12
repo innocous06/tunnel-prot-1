@@ -217,3 +217,4 @@
 - [2026-08-12 18:07] refactor: worker goroutine pool to bound concurrent connections
 - [2026-08-12 18:36] fix: handle context cancellation for graceful shutdown of listeners
 - [2026-08-12 19:03] fix: handle context cancellation for graceful shutdown of listeners
+- [2026-08-12 19:51] refactor: worker goroutine pool to bound concurrent connections
