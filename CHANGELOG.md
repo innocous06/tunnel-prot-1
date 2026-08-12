@@ -211,3 +211,4 @@
 - [2026-08-12 10:49] test: add unit and race condition tests for concurrent dialers
 - [2026-08-12 11:12] refactor: clean up error wrapping with fmt.Errorf %w
 - [2026-08-12 12:05] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-08-12 13:42] refactor: worker goroutine pool to bound concurrent connections
