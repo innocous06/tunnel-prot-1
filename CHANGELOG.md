@@ -220,3 +220,4 @@
 - [2026-08-12 19:51] refactor: worker goroutine pool to bound concurrent connections
 - [2026-08-12 20:53] docs: update README with CLI flags and usage examples
 - [2026-08-12 21:33] feat: add UDP packet relaying with NAT traversal mapping table
+- [2026-08-12 21:52] chore: configure go.mod and add CI testing workflow
