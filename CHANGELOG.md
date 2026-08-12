@@ -207,3 +207,4 @@
 - [2026-08-12 08:15] test: add unit and race condition tests for concurrent dialers
 - [2026-08-12 09:07] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-08-12 10:08] feat: add bidirectional TCP proxy stream with io.CopyBuffer
+- [2026-08-12 10:35] fix: resolve goroutine leak on abrupt TCP connection termination
