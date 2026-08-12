@@ -214,3 +214,4 @@
 - [2026-08-12 13:42] refactor: worker goroutine pool to bound concurrent connections
 - [2026-08-12 14:10] perf: reuse memory buffers using sync.Pool to minimize GC overhead
 - [2026-08-12 15:40] feat: add prometheus metrics exporter for active tunnel count
+- [2026-08-12 18:07] refactor: worker goroutine pool to bound concurrent connections
