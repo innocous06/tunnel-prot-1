@@ -210,3 +210,4 @@
 - [2026-08-12 10:35] fix: resolve goroutine leak on abrupt TCP connection termination
 - [2026-08-12 10:49] test: add unit and race condition tests for concurrent dialers
 - [2026-08-12 11:12] refactor: clean up error wrapping with fmt.Errorf %w
+- [2026-08-12 12:05] feat: add UDP packet relaying with NAT traversal mapping table
