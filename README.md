@@ -1,8 +1,12 @@
 # tunnel-prot-1
 
-[![Status: Work in Progress](https://img.shields.io/badge/status-wip__beta-c9654a?style=flat-square)](https://github.com/innocous06/tunnel-prot-1)
-[![Language: Go](https://img.shields.io/badge/language-Go_1.21+-18181f?style=flat-square)](https://go.dev/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-18181f?style=flat-square)](LICENSE)
+[![Status: Active Prototype](https://img.shields.io/badge/STATUS-BETA_PROTOTYPE-c9654a?style=for-the-badge)](https://github.com/innocous06/tunnel-prot-1)
+[![Language: Go](https://img.shields.io/badge/LANGUAGE-GO_1.21+-18181f?style=for-the-badge)](https://go.dev/)
+[![License: MIT](https://img.shields.io/badge/LICENSE-MIT-18181f?style=for-the-badge)](LICENSE)
+
+> [!IMPORTANT]
+> **Active Research & Development (Beta)**
+> 	unnel-prot-1 is an active experimental networking protocol. Handshake sequences, wire framing, and client interfaces are subject to ongoing development and architectural iteration.
 
 An encrypted TCP/UDP VPN tunneling protocol engineered in Go. Designed for secure, low-latency traffic forwarding with mutual TLS (mTLS) authentication and native mobile cross-compilation.
 
@@ -16,7 +20,7 @@ tunnel-prot-1 provides high-throughput point-to-point tunneling between client e
 - Mutual TLS (mTLS) certificate validation with automated certificate management.
 - Dynamic transport layer supporting both TCP/UDP multiplexing and fallback modes for restricted networks.
 - Benchmarked at 20–50 ms latency on domestic cloud instances and ~230 ms on transatlantic endpoints.
-- Android integration via `gomobile` binding with Android's native `VpnService` API.
+- Android integration via gomobile binding with Android's native VpnService API.
 
 ## Tech Stack
 
@@ -28,7 +32,7 @@ tunnel-prot-1 provides high-throughput point-to-point tunneling between client e
 
 ## Usage
 
-```bash
+`ash
 # Build server and client binaries
 go build -o bin/tunnel-server ./cmd/server
 go build -o bin/tunnel-client ./cmd/client
@@ -38,10 +42,10 @@ sudo ./bin/tunnel-server -config server_config.json
 
 # Connect client
 sudo ./bin/tunnel-client -config client_config.json
-```
+`
 
 ## License
 
 Released under the [MIT License](LICENSE).
 
-Copyright (c) 2026 innocous06. All rights reserved.
+Copyright (c) 2026 innocous06. All rights reserved.\n
